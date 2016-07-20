@@ -40,7 +40,7 @@ a.disabled {
 	background-color: blue;
 }
 
-div.grandparent > h4 {
+.grandparent > h4 {
 	border: 1px solid black;
 	border-radius: 10%;
 }
