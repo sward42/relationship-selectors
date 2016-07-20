@@ -1,0 +1,33 @@
+.head-list {
+	border: 1px solid red;
+	list-style-type: none;
+}
+
+.head-list li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.head-list li a:link {
+	text-decoration: none;
+}
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.div-red {
+	color: red;
+}
+
+.div-blue {
+	color: blue;
+}
