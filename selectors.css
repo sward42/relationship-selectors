@@ -31,3 +31,29 @@ a.disabled {
 .div-blue {
 	color: blue;
 }
+
+.div-red + h4 {
+	background-color: red;
+}
+
+.div-blue + h4 {
+	background-color: blue;
+}
+
+div.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input[type="text"] {
+	height: 25px;
+}
+
+
+
+
