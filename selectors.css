@@ -1,0 +1,59 @@
+.head-list {
+	border: 1px solid red;
+	list-style-type: none;
+}
+
+.head-list li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.head-list li a:link {
+	text-decoration: none;
+}
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.div-red {
+	color: red;
+}
+
+.div-blue {
+	color: blue;
+}
+
+.div-red + h4 {
+	background-color: red;
+}
+
+.div-blue + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input[type="text"] {
+	height: 25px;
+}
+
+
+
+
